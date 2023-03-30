@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+
+}
+
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+    padding: 4%;
+    margin-bottom: 2%;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    /*Centralização vertical do texto*/
+    line-height: 100px;
+    background-color: rgb(0, 0, 0);
+    /*Centralização horizontal do texto*/
+    text-align: center;
+    font-size: .8em;
+    color: wheat;
+}
+
+#caixa1 {
+    width: 180px; height: 240px;
+    padding: 10px; margin: 10px;
+    background-color: gray;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa2{
+    width: 180px; height: 240px;
+    padding: 10px; margin: 10px;
+    background-color: rgb(0, 52, 26);
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa3 {
+    width: 180px; height: 240px;
+    padding: 10px; margin: 10px;
+    background-color: rgb(1, 134, 67);
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa4 {
+    width: 180px; height: 240px;
+    padding: 10px; margin: 10px;
+    background-color: rgb(0, 255, 0);
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa1 h1{
+    color: violet;
+    /*3px é distancia*/
+    text-shadow: 3px 3px red;
+}
+
+#caixa2 h1{
+    color: yellow;
+    /*0.3 é a opacidade*/
+    text-shadow: 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+#caixa3 h1{
+    color: blue;
+    /*3px é o blur*/
+    text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.5);
+}

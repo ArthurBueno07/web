@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+}
+
+p{
+    clear: both;
+    font-size: 1.3em;
+    color: darkslateblue;
+    font-family: cursive;
+}
+
+.caixa-vermelha{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 25, 0);
+    float: left;
+}
+
+#titulo{
+    color: darkcyan;
+}
+
+#sub-titulo{
+    color: black;
+    font-family: unset;
+}

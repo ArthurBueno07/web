@@ -1,0 +1,53 @@
+main{
+
+    width: 950px;
+    margin: 0px auto;
+}
+
+.titulo{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.artigo-1{
+
+    width: 300px;
+    border: 1px solid blue;
+    /*Espaçamento externo*/
+    margin-right: 20px;
+
+    /*Fluxo*/
+   /* float: left;*/
+   clear: both;
+}
+
+.artigo-2{
+
+    width: 300px;
+    border: 1px solid green;
+    /*Espaçamento externo*/
+    margin-right: 20px;
+
+    /*Fluxo*/
+    float: left;
+}
+
+.artigo-3{
+
+    width: 300px;
+    border: 1px solid black;
+    /*Espaçamento externo*/
+    margin-right: 20px;
+
+    /*Fluxo*/
+    float: left;
+
+}
+
+.espacamento{
+
+    /*Espaçamento interno*/
+    padding: 30px;
+
+}

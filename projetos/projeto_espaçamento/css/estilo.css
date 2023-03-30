@@ -1,0 +1,13 @@
+.titulo{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.espacamento-1{
+    width: 50%; height: 100px;
+    border: 1px solid red;
+    padding-left: 25px; padding-right: 30px;
+    padding-bottom: 25px; padding-left: 30px;
+}
+

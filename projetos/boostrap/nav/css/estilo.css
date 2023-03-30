@@ -1,0 +1,11 @@
+main{
+    width: 70%;
+    margin: 0px auto;
+    background-color: rgb(200, 194, 188);
+    font-family: 'Roboto';
+    font-weight: bold !important;
+}
+
+h1{
+    text-align: center;
+}

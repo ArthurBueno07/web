@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>PetBu</title>
+</head>
+<body>
+    <header>
+        <img src="img/banner.png">
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="planos.html">Planos</a></li>
+              <li><a href="racoes.html">Rações</a></li>
+              <li><a href="servico.html">Serviços</a></li>
+              <li><a href="#">Contatos</a></li>
+            </ul>
+          </nav>
+
+
+        <form>
+            <!--Separar Conteudo semelhantes-->
+            <fieldset>
+                <!--Legegnda-->
+                <legend>
+                    Detalhes do comprador
+                </legend>
+                <div>
+                    <!--LAbel: Rótulo dos campos-->
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <!--LAbel: Rótulo dos campos-->
+                    <!--for: ligação do rotúlo com campo input-->
+                    <label for="nome">Email:</label>
+                    <input type="email" name="nome" id="nome">
+                </div>
+                <div>
+                    <!--LAbel: Rótulo dos campos-->
+                    <label for="endenreço">Endereço:</label>
+                    <input type="text" name="endenreço" id="endenreço">
+                </div>
+                <div>
+                <!--LAbel: Rótulo dos campos-->
+                <label for="numero">Numero:</label>
+                <input type="tel" name="numero" id="numero">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Avaliação da loja</legend>
+                <div>
+                    <label for="msg">Mensagem</label>
+                    <textarea name="msg" id="mensagem"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Receber promoções por email?
+                </legend>
+                <div>
+                    <label>
+                        <input type="radio" class="radio" name="news" id="sim">Sim
+                    </label>
+                </div>
+                <div>
+                    
+                    <input type="radio" class="radio" name="news" id="nao"> Não 
+                    
+                </div>
+            </fieldset>
+
+          
+        </form>
+    </main>
+    <footer> <p> &copy;2023 Bueno's company <br>
+        Instagram - @PetBu <br>
+        Whatsapp -  (32) 9 9999-9999 <br>
+        Facebook - PetBu </p>
+    </footer>
+    
+</body>
+</html>

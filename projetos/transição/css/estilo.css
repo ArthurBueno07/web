@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+
+}
+
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    padding: 4%;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    /*Centralização vertical do texto*/
+    line-height: 100px;
+    background-color: rgb(0, 0, 0);
+    /*Centralização horizontal do texto*/
+    text-align: center;
+    font-size: .8em;
+    color: wheat;
+}
+
+h2{
+    padding: 5%;
+}
+
+p{
+    padding-left: 5%;
+}
+
+#box{
+    width: 400px;
+    height: 200px;
+    margin: 5%;
+    background: rgb(77, 74, 74);
+
+    /*transição na largura e altura*/
+    transition-property: width, height, border-radius;
+    /*Tempo de transição*/
+    transition-duration: 2s;
+    /*tipo de transição*/
+    transition-timing-function: linear;
+    /*Tempo de espera*/
+    transition-delay: 1s;
+}
+
+#box:hover{
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+}

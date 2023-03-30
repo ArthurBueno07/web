@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(192, 235, 149);
+    font-family: monospace;
+    color: rgb(20, 65, 66);
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 1.3em;
+
+}
+
+h5{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+p{
+    width: 50%;
+}

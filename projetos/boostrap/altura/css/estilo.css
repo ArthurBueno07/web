@@ -1,0 +1,9 @@
+main{
+    width: 70%;
+    margin: 0px auto;
+    height: 500px;
+    background-color: rgb(255, 140, 0);
+    font-family: 'Roboto';
+    font-weight: bold !important;
+    color: aqua;
+}

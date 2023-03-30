@@ -1,0 +1,185 @@
+*{
+    margin: 0px; padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    padding-bottom: 2%;
+}
+
+h3{
+    color: #262626;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 4%;
+}
+
+
+main{
+    width: 70%;
+   /* height: 300px;*/
+    margin: 0px auto;
+    margin-top: -5px;
+    background-color: #ffffff;
+
+}
+
+article{
+    padding: 2.5%;
+    color: #262626;
+    font-size: .9em;
+    clear: both;
+}
+
+figure{
+    float: left;
+    margin-left: 25px;
+    padding-left: 2%;
+}
+
+legend{
+    text-align: center;
+    padding: 5%;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 80%;
+    margin-top: 0px;
+    /*Centralização vertical do texto*/
+    line-height: 30px;
+    background-color: rgb(0, 0, 0);
+    /*Centralização horizontal do texto*/
+    text-align: center;
+    padding: 90px 0px 50px 0px;
+    font-size: 1.1em;
+    color: #ffffff;
+
+
+}
+
+/*INICIO DA NAVEGAÇÃO*/
+
+nav{
+    background-color: #A6450D;
+    margin-left: 0px auto;
+}
+
+ul{
+    /*Zerar margem e espaçamento*/
+    margin: 0px; padding: 0px;
+
+    /*Tirar sibolo da lista*/
+    list-style-type: none;
+    background-color: #262626;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    
+    display: block;
+    width: 148px;
+    padding: 0 2.5em;
+
+    /*Centralizar conteudo*/
+    line-height: 2.5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    /*Retirando sublinhado do link*/
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #A6450D;
+    color: rgb(0, 0, 0);      
+}
+/*Fim da navegação*/
+
+
+.botao{
+    /*Zerar margem e espaçamento*/
+    margin: 0px; padding: 0px;
+
+    /*Tirar sibolo da lista*/
+    list-style-type: none;
+    background-color: #262626;
+    float: left;    
+}
+
+
+.botao .botao2 {
+    
+    display: block;
+    width: 100px;
+    
+
+    /*Centralizar conteudo*/
+    line-height: 1.4em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    /*Retirando sublinhado do link*/
+    text-decoration: none;
+}
+
+.botao1:hover {
+    background-color: #A6450D;
+    color: rgb(0, 0, 0);   
+
+}
+
+/*Tabela*/
+
+table{
+    width: 100%;
+    border: 4px solid #262626;
+    border-collapse: collapse;
+    
+}
+
+th, td{
+    border: 3px solid #262626;
+    padding: 12px;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    background-color: #262626;
+    color: chocolate;
+    font-size: 90%;
+}
+
+tr:hover{
+    background-color: #A6450D;
+
+
+}
+
+/*Fim da tabela*/
+
+/*Planos*/
+ol, #plano {
+    padding-left: 0%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/*/
+
+/*Serviços*/
+
+#servicos{
+    margin-left: 100px;
+    padding-left: 15%;
+    
+    
+}
+

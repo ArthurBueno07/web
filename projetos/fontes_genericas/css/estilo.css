@@ -1,0 +1,14 @@
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}

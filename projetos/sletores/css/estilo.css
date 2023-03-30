@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+}
+
+li > a{
+    color: blue;
+    font-size: 2em;
+}
+
+a{
+    color: yellow;
+    font-size: 2em;
+}

@@ -1,0 +1,28 @@
+*{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'Roboto';
+    color: tomato;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+p{
+    color: red;
+    font-family: 'Roboto';
+    font-size: 1.3em;
+}
+
+.texto{
+    color: rgb(0, 0, 61);
+}
+
+#paragrafo{
+    color: yellow;
+}

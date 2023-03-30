@@ -1,0 +1,31 @@
+*{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'Roboto';
+    color: tomato;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+p{
+    color: red;
+    font-family: 'Roboto';
+    font-size: 1.3em;
+}
+
+.destaque{
+    color: rgb(0, 0, 61);
+}
+
+/* Neste exemplo, ambas regras de estilo
+se aplicam ao elemento <p> porque ele é um 
+parágrafo e também tem a classe "destaque".
+No entanto, a regra .destaque é mais 
+específica do que a regra p, então a cor do 
+sera azul escuro.*/ 

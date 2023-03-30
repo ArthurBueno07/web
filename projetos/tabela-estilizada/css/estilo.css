@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif; 
+}
+
+header{
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+    padding: 4%;
+    margin-bottom: 0px auto;
+
+}
+
+main{
+    width: 50%;
+    margin: 0px auto;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    margin-top: 2%;
+    /*Centralização vertical do texto*/
+    line-height: 100px;
+    background-color: rgb(0, 0, 0);
+    /*CEntralização horizontal do texto*/
+    text-align: center;
+    font-size: .8em;
+    color: rgb(255, 255, 255);
+}
+
+table{
+    width: 500px;
+    border: 1px solid red;
+    border-collapse: collapse;
+    
+}
+
+th, td{
+    border: 1px solid #ff4747;
+    padding: 7px;
+}
+
+th{
+    text-transform: uppercase;
+    text-align: left;
+    background-color: springgreen;
+    color: chocolate;
+    font-size: 90%;
+}
+
+tr:hover{
+    background-color: orange;
+
+}
+
+.moeda{
+    text-align: right;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0px; padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    /*Centralização vertical do texto*/
+    line-height: 200px;
+    background-color: teal;
+    /*Centralização horizontal do texto*/
+    text-align: center;
+    color: rgb(250, 246, 245);
+}
+
+main{
+    width: 80%;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 2%;
+    background-color: rgb(82, 76, 70);
+    border-radius: 7px;
+    padding: 2.6%;
+
+}
+
+article{
+    padding: 2%;
+    color: rgb(216, 211, 196);
+    font-size: .9em;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 2%;
+    /*Centralização vertical do texto*/
+    line-height: 50px;
+    background-color: rgb(83, 81, 79);
+    /*Centralização horizontal do texto*/
+    text-align: center;
+    font-size: .8em;
+    color: #ffffff;
+}
+
+
+/*INICIO DA NAVEGAÇÃO*/
+nav{
+    background-color: #f1f1f1;
+    border-radius: 7px;
+    padding: 10px;
+    width: 200px;
+    margin-left: 1%;
+    margin-right: 10%;
+    border: 1px solid  #ddcdcd;
+    float: left;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    /*caso não use no seletor universal*/
+    margin: 0;
+    padding: 5px 0;
+}
+
+a{
+    display: block;
+    /*caso não use o seletor universal*/
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(232, 131, 131);
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover{
+    background-color: rgb(75, 0, 0);
+    color: #f1f1f1;
+
+}
+/*Fim da navegação*/
