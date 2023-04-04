@@ -6,6 +6,15 @@
     font-weight: bold;
 }
 
+/*banner*/
+.header-banner{
+  background-color: rgb(255, 179, 79);
+  height: 30%;
+}
+
+.texto{
+  font-size: .8em;
+}
 
 .titulo{
     font-family: fantasy;
