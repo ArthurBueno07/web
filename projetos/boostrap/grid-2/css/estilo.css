@@ -1,0 +1,9 @@
+.conteudo{
+    background-color: rgba(12, 255, 142, 0.261);
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.mostrar-conteudo{
+    border: 2px solid blue;
+}
